@@ -42,7 +42,7 @@ export function LoginPage() {
           </label>
         </div>
         {error && <p className="error">{error}</p>}
-        <button className="btn accent" style={{ width: "100%", marginTop: "1rem" }} disabled={busy}>
+        <button type="submit" className="btn accent" style={{ width: "100%", marginTop: "1rem" }} disabled={busy}>
           {t("login")}
         </button>
       </form>

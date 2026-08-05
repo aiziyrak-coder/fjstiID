@@ -69,6 +69,9 @@ function authHeaders(): HeadersInit {
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   const res = await fetch(`${API_URL}${path}`, {
     ...options,
+    method: options.method || (options.body ? "POST" : "GET"),
+    cache: "no-store",
+    redirect: "follow",
     headers: {
       ...(options.body instanceof FormData ? {} : { "Content-Type": "application/json" }),
       ...authHeaders(),
@@ -77,7 +80,12 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   });
   if (!res.ok) {
     const err = await res.json().catch(() => ({ detail: res.statusText }));
-    throw new Error(typeof err.detail === "string" ? err.detail : JSON.stringify(err.detail || err));
+    const detail =
+      typeof err.detail === "string" ? err.detail : JSON.stringify(err.detail || err);
+    if (res.status === 405) {
+      throw new Error("So'rov usuli noto'g'ri (405). Sahifani yangilab qayta urinib ko'ring.");
+    }
+    throw new Error(detail || res.statusText);
   }
   if (res.status === 204) return undefined as T;
   const ct = res.headers.get("content-type") || "";
