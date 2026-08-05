@@ -67,9 +67,10 @@ function authHeaders(): HeadersInit {
 }
 
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
+  const method = options.method || (options.body ? "POST" : "GET");
   const res = await fetch(`${API_URL}${path}`, {
     ...options,
-    method: options.method || (options.body ? "POST" : "GET"),
+    method,
     cache: "no-store",
     redirect: "follow",
     headers: {
@@ -82,8 +83,15 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
     const err = await res.json().catch(() => ({ detail: res.statusText }));
     const detail =
       typeof err.detail === "string" ? err.detail : JSON.stringify(err.detail || err);
+    // Eski/yaroqsiz token — login sahifasiga
+    if (res.status === 401 && !path.includes("/auth/login")) {
+      localStorage.removeItem("token");
+      if (!window.location.pathname.startsWith("/login")) {
+        window.location.replace("/login");
+      }
+    }
     if (res.status === 405) {
-      throw new Error("So'rov usuli noto'g'ri (405). Sahifani yangilab qayta urinib ko'ring.");
+      throw new Error("So'rov usuli noto'g'ri (405). Ctrl+F5 bilan sahifani yangilang.");
     }
     throw new Error(detail || res.statusText);
   }

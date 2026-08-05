@@ -8,11 +8,24 @@ export function DashboardPage() {
   const { t } = useTranslation();
   const { user } = useAuth();
   const [s, setS] = useState<DashboardStats | null>(null);
+  const [error, setError] = useState("");
 
   useEffect(() => {
-    api.stats().then(setS).catch(console.error);
+    let alive = true;
+    api
+      .stats()
+      .then((data) => {
+        if (alive) setS(data);
+      })
+      .catch((e) => {
+        if (alive) setError(e instanceof Error ? e.message : "Xato");
+      });
+    return () => {
+      alive = false;
+    };
   }, []);
 
+  if (error) return <p className="error">{error}</p>;
   if (!s) return <p className="muted">Yuklanmoqda...</p>;
 
   const maxBar = Math.max(1, ...s.access_last_7_days.map((d) => d.success + d.fail));

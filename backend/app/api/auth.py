@@ -12,6 +12,12 @@ from app.services.users import user_to_out
 router = APIRouter(prefix="/api/v1/auth", tags=["auth"])
 
 
+@router.get("/login")
+async def login_info():
+    """Brauzer GET (prefetch) qilsa 405 chiqmasin — kirish faqat POST."""
+    return {"ok": True, "message": "Login uchun POST /api/v1/auth/login yuboring", "methods": ["POST"]}
+
+
 @router.post("/login", response_model=TokenResponse)
 async def login(body: LoginRequest, db: AsyncSession = Depends(get_db)):
     result = await db.execute(
