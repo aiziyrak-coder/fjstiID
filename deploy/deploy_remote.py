@@ -121,20 +121,7 @@ def sftp_put_file(c: paramiko.SSHClient, local: Path, remote: str) -> None:
 
 
 def main() -> None:
-    print("=== 1) Build frontend locally ===")
-    frontend = ROOT / "frontend"
-    env_prod = frontend / ".env.production"
-    env_prod.write_text("VITE_API_URL=\n", encoding="utf-8")
-    # build
-    import subprocess
-
-    subprocess.check_call(["npm", "ci"], cwd=str(frontend), shell=True)
-    subprocess.check_call(["npm", "run", "build"], cwd=str(frontend), shell=True)
-    dist = frontend / "dist"
-    if not (dist / "index.html").exists():
-        raise SystemExit("frontend dist missing")
-
-    print("=== 2) Pack & upload ===")
+    print("=== 1) Pack & upload source ===")
     c = connect()
     run(c, f"mkdir -p {REMOTE_DIR} /tmp/fjsti-upload")
     tarball = make_tarball()
@@ -142,24 +129,26 @@ def main() -> None:
     run(c, f"rm -rf {REMOTE_DIR}.bak && (test -d {REMOTE_DIR} && mv {REMOTE_DIR} {REMOTE_DIR}.bak || true)")
     run(c, f"mkdir -p {REMOTE_DIR} && tar -xzf /tmp/fjsti-upload/fjsti-id.tar.gz -C /home/admin_root && ls {REMOTE_DIR}")
 
-    # upload frontend dist separately (included in tarball if built before pack — rebuild order)
-    # Re-upload dist to be sure
-    print("=== 3) Upload frontend dist ===")
-    run(c, "rm -rf /tmp/fjsti-dist && mkdir -p /tmp/fjsti-dist")
-    dist_buf = io.BytesIO()
-    with tarfile.open(fileobj=dist_buf, mode="w:gz") as tar:
-        for p in dist.rglob("*"):
-            if p.is_file():
-                tar.add(p, arcname=p.relative_to(dist).as_posix())
-    sftp_write(c, "/tmp/fjsti-dist.tar.gz", dist_buf.getvalue())
-    sudo(c, f"mkdir -p {WWW_DIR} && rm -rf {WWW_DIR}/* && tar -xzf /tmp/fjsti-dist.tar.gz -C {WWW_DIR} && chown -R www-data:www-data {WWW_DIR}")
+    print("=== 2) Build frontend on server ===")
+    run(c, "node -v && npm -v")
+    run(
+        c,
+        f"cd {REMOTE_DIR}/frontend && printf 'VITE_API_URL=\\n' > .env.production && "
+        f"npm ci && npm run build && test -f dist/index.html",
+        timeout=1200,
+    )
+    sudo(
+        c,
+        f"mkdir -p {WWW_DIR} && rm -rf {WWW_DIR}/* && "
+        f"cp -a {REMOTE_DIR}/frontend/dist/. {WWW_DIR}/ && chown -R www-data:www-data {WWW_DIR}",
+    )
 
-    print("=== 4) Ensure .env.production on server ===")
+    print("=== 3) Ensure .env.production on server ===")
     env_local = ROOT / "backend" / ".env.production"
     if env_local.exists():
         sftp_put_file(c, env_local, f"{REMOTE_DIR}/backend/.env.production")
 
-    print("=== 5) Docker compose up (localhost binds only) ===")
+    print("=== 4) Docker compose up (localhost binds only) ===")
     run(
         c,
         f"cd {REMOTE_DIR}/deploy && "
@@ -168,7 +157,7 @@ def main() -> None:
         timeout=2400,
     )
 
-    print("=== 6) Wait API health ===")
+    print("=== 5) Wait API health ===")
     for i in range(60):
         out = run(c, "curl -sf http://127.0.0.1:8120/health || true", check=False)
         if '"status"' in out and "ok" in out:
@@ -179,10 +168,10 @@ def main() -> None:
         run(c, "docker logs fjstiid-api --tail 80", check=False)
         raise RuntimeError("API did not become healthy")
 
-    print("=== 7) Seed (org + staff + students from uploaded JSON) ===")
+    print("=== 6) Seed (org + staff + students from uploaded JSON) ===")
     run(c, "docker exec fjstiid-api python -m app.seed", timeout=3600)
 
-    print("=== 8) Nginx site ONLY for id.fermi.uz ===")
+    print("=== 7) Nginx site ONLY for id.fermi.uz ===")
     # Write nginx config via temp then sudo move — do not touch other configs
     nginx_src = (ROOT / "deploy" / "nginx.id.fermi.uz.conf").read_text(encoding="utf-8")
     # HTTP-only first for certbot if no cert yet
@@ -229,7 +218,7 @@ def main() -> None:
         f"nginx -t && systemctl reload nginx",
     )
 
-    print("=== 9) SSL certbot (only id.fermi.uz) ===")
+    print("=== 8) SSL certbot (only id.fermi.uz) ===")
     # If cert exists, install SSL into config; else obtain
     out = run(c, "sudo -n ls /etc/letsencrypt/live/id.fermi.uz/fullchain.pem 2>/dev/null || printf '%s\\n' '" + PASS + "' | sudo -S ls /etc/letsencrypt/live/id.fermi.uz/fullchain.pem 2>/dev/null || true", check=False)
     if "fullchain.pem" not in out:
@@ -256,7 +245,7 @@ def main() -> None:
         sftp.close()
         sudo(c, f"cp /tmp/id.fermi.uz.nginx.ssl {NGINX_AVAIL} && nginx -t && systemctl reload nginx")
 
-    print("=== 10) Smoke test ===")
+    print("=== 9) Smoke test ===")
     run(c, "curl -sI http://127.0.0.1:8120/health | head -5")
     run(c, "curl -skI https://id.fermi.uz/health | head -15", check=False)
     run(c, "curl -skI https://id.fermi.uz/ | head -15", check=False)

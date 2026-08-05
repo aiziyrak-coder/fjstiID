@@ -51,7 +51,7 @@ export function PortalPage() {
           <div style={{ flex: 1 }}>
             <h3 style={{ marginTop: 0 }}>{user.full_name}</h3>
             <p className="muted">
-              {user.roles.map((r) => r.name_uz || r.code).join(", ")}
+              {user.roles.map((r: { name_uz?: string; code?: string }) => r.name_uz || r.code).join(", ")}
               {user.student && <> · Talaba ID: <code>{user.student.student_number}</code></>}
               {user.staff && <> · Xodim ID: <code>{user.staff.employee_number}</code></>}
             </p>

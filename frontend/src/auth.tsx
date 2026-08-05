@@ -42,7 +42,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       user,
       loading,
       refresh,
-      isAdmin: !!user?.roles.some((r) => r.code === "admin" || r.code === "moderator" || r.name === "admin" || r.name === "moderator"),
+      isAdmin: !!user?.roles.some(
+        (r: { code?: string; name?: string }) =>
+          r.code === "admin" || r.code === "moderator" || r.name === "admin" || r.name === "moderator"
+      ),
       login: async (email, password) => {
         const res = await api.login(email, password);
         localStorage.setItem("token", res.access_token);
