@@ -1,0 +1,26 @@
+.env
+backend/.env
+backend/.env.production
+backend/.demo_api_key
+backend/.venv/
+backend/**/__pycache__/
+frontend/node_modules/
+frontend/dist/
+backend/uploads/
+test_face.jpg
+deploy/_ssh_*.py
+deploy/.secrets
+deploy/.env
+*.tar.gz
+frontend/.env.production
+
+# Shaxsiy ma'lumotlar (PINFL/pasport) — public repoga ketmasin
+backend/app/data/fjsti_students_*.json
+backend/app/data/fjsti_staff_mart2026.json
+
+*.pyc
+.DS_Store
+sdk/python/*.egg-info/
+sdk/python/examples/attendance.json
+.idea/
+.vscode/

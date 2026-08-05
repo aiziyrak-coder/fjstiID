@@ -1,0 +1,53 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: fjsti
+      POSTGRES_PASSWORD: fjsti_secret
+      POSTGRES_DB: fjsti_id
+    ports:
+      - "55432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fjsti -d fjsti_id"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    env_file:
+      - ./backend/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://fjsti:fjsti_secret@db:5432/fjsti_id
+      DATABASE_URL_SYNC: postgresql+psycopg://fjsti:fjsti_secret@db:5432/fjsti_id
+      FACE_PROVIDER: mock
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - face_models:/root/.insightface
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      VITE_API_URL: http://localhost:8000
+    depends_on:
+      - api
+
+volumes:
+  pgdata:
+  face_models:

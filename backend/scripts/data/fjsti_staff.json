@@ -1,0 +1,2402 @@
+[
+  {
+    "slug": "akusherlik-va-ginekologiya-kafedrasi",
+    "dept_code": "DI-AKUSH",
+    "people": [
+      {
+        "full_name": "Siddiqov Obidjon Siddiqovich",
+        "position": "Professor",
+        "last_name": "Siddiqov",
+        "first_name": "Obidjon",
+        "middle_name": "Siddiqovich"
+      },
+      {
+        "full_name": "Yusupova Rano Turdiyevna",
+        "position": "Dotsent",
+        "last_name": "Yusupova",
+        "first_name": "Rano",
+        "middle_name": "Turdiyevna"
+      },
+      {
+        "full_name": "Suyarkulova Madxiya Erkinovna",
+        "position": "Kafedra mudiri",
+        "last_name": "Suyarkulova",
+        "first_name": "Madxiya",
+        "middle_name": "Erkinovna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Masharipova Salimaxon Ortiqaliyevna",
+        "position": "O'qituvchi",
+        "last_name": "Masharipova",
+        "first_name": "Salimaxon",
+        "middle_name": "Ortiqaliyevna"
+      },
+      {
+        "full_name": "Shalankova Olga Evgenevna",
+        "position": "O'qituvchi",
+        "last_name": "Shalankova",
+        "first_name": "Olga",
+        "middle_name": "Evgenevna"
+      },
+      {
+        "full_name": "Mirzajonova Zulayho Melijonovna",
+        "position": "O'qituvchi",
+        "last_name": "Mirzajonova",
+        "first_name": "Zulayho",
+        "middle_name": "Melijonovna"
+      }
+    ]
+  },
+  {
+    "slug": "biotibbiyot-muhandisligi-biofizikia-va-axborot-texnologiyalar-kafedrasi",
+    "dept_code": "TP-BIOENG",
+    "people": [
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "XOLIDDINOV XOSILJON",
+        "position": "O'qituvchi",
+        "last_name": "XOLIDDINOV",
+        "first_name": "XOSILJON",
+        "middle_name": null
+      },
+      {
+        "full_name": "HIQ DARSLARI",
+        "position": "O'qituvchi",
+        "last_name": "HIQ",
+        "first_name": "DARSLARI",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "dermatovenerologiya-va-allergologiya-kafedrasi",
+    "dept_code": "PED-DERMA",
+    "people": [
+      {
+        "full_name": "Sidikov Akmal Abdikaxarovich",
+        "position": "Professor",
+        "last_name": "Sidikov",
+        "first_name": "Akmal",
+        "middle_name": "Abdikaxarovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "endokrinologiya-gemotologiya-va-ftiziatriya-kafedrasi",
+    "dept_code": "PED-ENDO",
+    "people": [
+      {
+        "full_name": "Karimova Muqimaxon Muhamadsodiqovna",
+        "position": "Dotsent",
+        "last_name": "Karimova",
+        "first_name": "Muqimaxon",
+        "middle_name": "Muhamadsodiqovna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Tibbiy Radiologiya",
+        "position": "O'qituvchi",
+        "last_name": "Tibbiy",
+        "first_name": "Radiologiya",
+        "middle_name": null
+      },
+      {
+        "full_name": "Ganiyev Sardor Saminjonovich",
+        "position": "O'qituvchi",
+        "last_name": "Ganiyev",
+        "first_name": "Sardor",
+        "middle_name": "Saminjonovich"
+      },
+      {
+        "full_name": "Ibragimova Nigora Rasulovna",
+        "position": "O'qituvchi",
+        "last_name": "Ibragimova",
+        "first_name": "Nigora",
+        "middle_name": "Rasulovna"
+      },
+      {
+        "full_name": "Mavlanov Ozodbek Haydarovich",
+        "position": "O'qituvchi",
+        "last_name": "Mavlanov",
+        "first_name": "Ozodbek",
+        "middle_name": "Haydarovich"
+      },
+      {
+        "full_name": "Axunbayev Otabek Adilovich",
+        "position": "O'qituvchi",
+        "last_name": "Axunbayev",
+        "first_name": "Otabek",
+        "middle_name": "Adilovich"
+      }
+    ]
+  },
+  {
+    "slug": "epidemiologiya-va-yuqumli-kasalliklar-hamshiralik-ishi-kafedrasi",
+    "dept_code": "TP-EPIDEM",
+    "people": [
+      {
+        "full_name": "Madaminov Faxriddin Axmadovich",
+        "position": "PhD, o'qituvchi",
+        "last_name": "Madaminov",
+        "first_name": "Faxriddin",
+        "middle_name": "Axmadovich"
+      },
+      {
+        "full_name": "Haydarova Buzulayho Axmedovna",
+        "position": "Kafedra mudiri",
+        "last_name": "Haydarova",
+        "first_name": "Buzulayho",
+        "middle_name": "Axmedovna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Muhitdinova Shoira Baxramovna",
+        "position": "O'qituvchi",
+        "last_name": "Muhitdinova",
+        "first_name": "Shoira",
+        "middle_name": "Baxramovna"
+      },
+      {
+        "full_name": "Abduganiyeva Arofat Yermaxamatovna",
+        "position": "O'qituvchi",
+        "last_name": "Abduganiyeva",
+        "first_name": "Arofat",
+        "middle_name": "Yermaxamatovna"
+      },
+      {
+        "full_name": "Ruzibaeva Yorkinoy Ravshanovna",
+        "position": "O'qituvchi",
+        "last_name": "Ruzibaeva",
+        "first_name": "Yorkinoy",
+        "middle_name": "Ravshanovna"
+      },
+      {
+        "full_name": "Mirzojonov Azimjon Dadajonovich",
+        "position": "O'qituvchi",
+        "last_name": "Mirzojonov",
+        "first_name": "Azimjon",
+        "middle_name": "Dadajonovich"
+      },
+      {
+        "full_name": "Boltaboyev Murodiljon Umarovich",
+        "position": "O'qituvchi",
+        "last_name": "Boltaboyev",
+        "first_name": "Murodiljon",
+        "middle_name": "Umarovich"
+      },
+      {
+        "full_name": "Akbarova Gulchexra Xabibullayevna",
+        "position": "O'qituvchi",
+        "last_name": "Akbarova",
+        "first_name": "Gulchexra",
+        "middle_name": "Xabibullayevna"
+      },
+      {
+        "full_name": "Raximov Toxirjon Ganievich",
+        "position": "O'qituvchi",
+        "last_name": "Raximov",
+        "first_name": "Toxirjon",
+        "middle_name": "Ganievich"
+      },
+      {
+        "full_name": "Mirzayev Olim Jaloldinovich",
+        "position": "O'qituvchi",
+        "last_name": "Mirzayev",
+        "first_name": "Olim",
+        "middle_name": "Jaloldinovich"
+      },
+      {
+        "full_name": "Egamberdiyeva Gulnoraxon Nematovna",
+        "position": "O'qituvchi",
+        "last_name": "Egamberdiyeva",
+        "first_name": "Gulnoraxon",
+        "middle_name": "Nematovna"
+      }
+    ]
+  },
+  {
+    "slug": "fakultet-va-gospital-jarrohlik-kafedrasi",
+    "dept_code": "DI-FAK-JAR",
+    "people": [
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Xaydarov G‘.M",
+        "position": "O'qituvchi",
+        "last_name": "Xaydarov",
+        "first_name": "G‘.M",
+        "middle_name": null
+      },
+      {
+        "full_name": "Qo‘ziboyev Sh.I",
+        "position": "O'qituvchi",
+        "last_name": "Qo‘ziboyev",
+        "first_name": "Sh.I",
+        "middle_name": null
+      },
+      {
+        "full_name": "Yoqubov D.Y.",
+        "position": "O'qituvchi",
+        "last_name": "Yoqubov",
+        "first_name": "D.",
+        "middle_name": "Y."
+      },
+      {
+        "full_name": "Burcu Barutcuoglu",
+        "position": "O'qituvchi",
+        "last_name": "Burcu",
+        "first_name": "Barutcuoglu",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "fiziologiya-kafedrasi",
+    "dept_code": "XF-FIZIO",
+    "people": [
+      {
+        "full_name": "Rasulova Moxidil Tursunaliyevna",
+        "position": "Kafedra mudiri",
+        "last_name": "Rasulova",
+        "first_name": "Moxidil",
+        "middle_name": "Tursunaliyevna"
+      },
+      {
+        "full_name": "Matxoshimov Nodirjon Soyibjonovich",
+        "position": "Kafedra mudiri",
+        "last_name": "Matxoshimov",
+        "first_name": "Nodirjon",
+        "middle_name": "Soyibjonovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Normal Fiziologiya",
+        "position": "O'qituvchi",
+        "last_name": "Normal",
+        "first_name": "Fiziologiya",
+        "middle_name": null
+      },
+      {
+        "full_name": "Xodjаmberdiev Аkrаm Ilxаmjаnovich",
+        "position": "O'qituvchi",
+        "last_name": "Xodjаmberdiev",
+        "first_name": "Аkrаm",
+        "middle_name": "Ilxаmjаnovich"
+      },
+      {
+        "full_name": "Ganijonov Polvonjon Hasanjonovich",
+        "position": "O'qituvchi",
+        "last_name": "Ganijonov",
+        "first_name": "Polvonjon",
+        "middle_name": "Hasanjonovich"
+      },
+      {
+        "full_name": "Homidchonova Shahzoda Hasanzoda",
+        "position": "O'qituvchi",
+        "last_name": "Homidchonova",
+        "first_name": "Shahzoda",
+        "middle_name": "Hasanzoda"
+      },
+      {
+        "full_name": "Ikramova Nodira Maxmudovna",
+        "position": "O'qituvchi",
+        "last_name": "Ikramova",
+        "first_name": "Nodira",
+        "middle_name": "Maxmudovna"
+      },
+      {
+        "full_name": "Mirzаjonovа Sаboxon Аbjаlilovnа",
+        "position": "O'qituvchi",
+        "last_name": "Mirzаjonovа",
+        "first_name": "Sаboxon",
+        "middle_name": "Аbjаlilovnа"
+      },
+      {
+        "full_name": "Platelet Activation",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Activation",
+        "middle_name": null
+      },
+      {
+        "full_name": "Blood Groups",
+        "position": "O'qituvchi",
+        "last_name": "Blood",
+        "first_name": "Groups",
+        "middle_name": null
+      },
+      {
+        "full_name": "Genetic Mapping",
+        "position": "O'qituvchi",
+        "last_name": "Genetic",
+        "first_name": "Mapping",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hardy-Weinberg Law",
+        "position": "O'qituvchi",
+        "last_name": "Hardy-Weinberg",
+        "first_name": "Law",
+        "middle_name": null
+      },
+      {
+        "full_name": "Down Syndrome",
+        "position": "O'qituvchi",
+        "last_name": "Down",
+        "first_name": "Syndrome",
+        "middle_name": null
+      },
+      {
+        "full_name": "Muscular Dystrophies",
+        "position": "O'qituvchi",
+        "last_name": "Muscular",
+        "first_name": "Dystrophies",
+        "middle_name": null
+      },
+      {
+        "full_name": "Trinucleotide Repeat Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Trinucleotide",
+        "first_name": "Repeat",
+        "middle_name": "Disorders"
+      },
+      {
+        "full_name": "Deletion Syndromes",
+        "position": "O'qituvchi",
+        "last_name": "Deletion",
+        "first_name": "Syndromes",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "gistologiya-va-biologiya-kafedrasi",
+    "dept_code": "XF-GISTO",
+    "people": [
+      {
+        "full_name": "Yuldasheva Moxigul Turdialiyevna",
+        "position": "PhD, o'qituvchi",
+        "last_name": "Yuldasheva",
+        "first_name": "Moxigul",
+        "middle_name": "Turdialiyevna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Palvanova Matlyubaxon Satvaldiyevna-",
+        "position": "O'qituvchi",
+        "last_name": "Palvanova",
+        "first_name": "Matlyubaxon",
+        "middle_name": "Satvaldiyevna-"
+      },
+      {
+        "full_name": "Yoqutxon Ne’matillayevna -",
+        "position": "O'qituvchi",
+        "last_name": "Yoqutxon",
+        "first_name": "Ne’matillayevna",
+        "middle_name": "-"
+      },
+      {
+        "full_name": "Connective Tissue",
+        "position": "O'qituvchi",
+        "last_name": "Connective",
+        "first_name": "Tissue",
+        "middle_name": null
+      },
+      {
+        "full_name": "Cell Structure",
+        "position": "O'qituvchi",
+        "last_name": "Cell",
+        "first_name": "Structure",
+        "middle_name": null
+      },
+      {
+        "full_name": "Cell Cycle",
+        "position": "O'qituvchi",
+        "last_name": "Cell",
+        "first_name": "Cycle",
+        "middle_name": null
+      },
+      {
+        "full_name": "Flow Cytometry",
+        "position": "O'qituvchi",
+        "last_name": "Flow",
+        "first_name": "Cytometry",
+        "middle_name": null
+      },
+      {
+        "full_name": "Polymerase Chain Reaction",
+        "position": "O'qituvchi",
+        "last_name": "Polymerase",
+        "first_name": "Chain",
+        "middle_name": "Reaction"
+      },
+      {
+        "full_name": "DNA Repair",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Repair",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Mutations",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Mutations",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Replication",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Replication",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "gospital-terapiya-laboratoriya-kafedrasi",
+    "dept_code": "DI-GOSP-TER",
+    "people": [
+      {
+        "full_name": "Maxmudov Nurillo Ismoilovich",
+        "position": "Dotsent",
+        "last_name": "Maxmudov",
+        "first_name": "Nurillo",
+        "middle_name": "Ismoilovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Raxmatova Feruza Uraimova",
+        "position": "O'qituvchi",
+        "last_name": "Raxmatova",
+        "first_name": "Feruza",
+        "middle_name": "Uraimova"
+      },
+      {
+        "full_name": "Mirqurbanova Taxmina Xamidzoda",
+        "position": "O'qituvchi",
+        "last_name": "Mirqurbanova",
+        "first_name": "Taxmina",
+        "middle_name": "Xamidzoda"
+      }
+    ]
+  },
+  {
+    "slug": "ichki-kasalliklar-propedevtikasi-kafedrasi",
+    "dept_code": "DI-ICHKI-PROP",
+    "people": [
+      {
+        "full_name": "Kattaxanova Rabiya Yuldashevna",
+        "position": "Kafedra mudiri",
+        "last_name": "Kattaxanova",
+        "first_name": "Rabiya",
+        "middle_name": "Yuldashevna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Ismoilovа Muаzzаmxon Isroilovnа",
+        "position": "O'qituvchi",
+        "last_name": "Ismoilovа",
+        "first_name": "Muаzzаmxon",
+        "middle_name": "Isroilovnа"
+      },
+      {
+        "full_name": "Umirzakov Odiljon Ergashevich",
+        "position": "O'qituvchi",
+        "last_name": "Umirzakov",
+        "first_name": "Odiljon",
+        "middle_name": "Ergashevich"
+      },
+      {
+        "full_name": "Shamsutdinova Guzel Bahodirovna",
+        "position": "O'qituvchi",
+        "last_name": "Shamsutdinova",
+        "first_name": "Guzel",
+        "middle_name": "Bahodirovna"
+      },
+      {
+        "full_name": "Kosimovа Zuxrа Mаdаminjonovnа",
+        "position": "O'qituvchi",
+        "last_name": "Kosimovа",
+        "first_name": "Zuxrа",
+        "middle_name": "Mаdаminjonovnа"
+      },
+      {
+        "full_name": "Xodjaeva Gulnora Аbdubannonovna",
+        "position": "O'qituvchi",
+        "last_name": "Xodjaeva",
+        "first_name": "Gulnora",
+        "middle_name": "Аbdubannonovna"
+      },
+      {
+        "full_name": "Platelet Activation",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Activation",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hypercoagulable States",
+        "position": "O'qituvchi",
+        "last_name": "Hypercoagulable",
+        "first_name": "States",
+        "middle_name": null
+      },
+      {
+        "full_name": "Platelet Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Anticoagulant Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Anticoagulant",
+        "first_name": "Drugs",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hemolysis Basics",
+        "position": "O'qituvchi",
+        "last_name": "Hemolysis",
+        "first_name": "Basics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Extrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Extrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Intrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Intrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microcytic Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Microcytic",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Sicle Cell Anemia",
+        "position": "O'qituvchi",
+        "last_name": "Sicle",
+        "first_name": "Cell",
+        "middle_name": "Anemia"
+      },
+      {
+        "full_name": "Other Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Blood Groups",
+        "position": "O'qituvchi",
+        "last_name": "Blood",
+        "first_name": "Groups",
+        "middle_name": null
+      },
+      {
+        "full_name": "Acute Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Acute",
+        "first_name": "Leukemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Chronic Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Chronic",
+        "first_name": "Leukemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hodgkin Lymphoma",
+        "position": "O'qituvchi",
+        "last_name": "Hodgkin",
+        "first_name": "Lymphoma",
+        "middle_name": null
+      },
+      {
+        "full_name": "Non Hodgkin Lymphoma",
+        "position": "O'qituvchi",
+        "last_name": "Non",
+        "first_name": "Hodgkin",
+        "middle_name": "Lymphoma"
+      },
+      {
+        "full_name": "Plasma Cell Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Plasma",
+        "first_name": "Cell",
+        "middle_name": "Disorders"
+      },
+      {
+        "full_name": "Myeloproliferative Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Myeloproliferative",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Alkylating Agents",
+        "position": "O'qituvchi",
+        "last_name": "Alkylating",
+        "first_name": "Agents",
+        "middle_name": null
+      },
+      {
+        "full_name": "Antitumor Antibiotics",
+        "position": "O'qituvchi",
+        "last_name": "Antitumor",
+        "first_name": "Antibiotics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microtuble Inhibitors",
+        "position": "O'qituvchi",
+        "last_name": "Microtuble",
+        "first_name": "Inhibitors",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Drugs",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Drugs",
+        "middle_name": null
+      },
+      {
+        "full_name": "Other Cancer Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Cancer",
+        "middle_name": "Drugs"
+      }
+    ]
+  },
+  {
+    "slug": "ijtimoiy-fanlar-kafedrasi",
+    "dept_code": "XF-IJTIMOIY",
+    "people": [
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Mamadaliev Nemat Qaxorovich",
+        "position": "O'qituvchi",
+        "last_name": "Mamadaliev",
+        "first_name": "Nemat",
+        "middle_name": "Qaxorovich"
+      },
+      {
+        "full_name": "Saliyev Ulug`bek Abdulayevich",
+        "position": "O'qituvchi",
+        "last_name": "Saliyev",
+        "first_name": "Ulug`bek",
+        "middle_name": "Abdulayevich"
+      },
+      {
+        "full_name": "Ro‘zmatzoda Qodirqul",
+        "position": "O'qituvchi",
+        "last_name": "Ro‘zmatzoda",
+        "first_name": "Qodirqul",
+        "middle_name": null
+      },
+      {
+        "full_name": "Xajimuratov Аbduqahhor Аbdumutalovich",
+        "position": "O'qituvchi",
+        "last_name": "Xajimuratov",
+        "first_name": "Аbduqahhor",
+        "middle_name": "Аbdumutalovich"
+      },
+      {
+        "full_name": "Yusupov Azamjon Abdulladzhonovich",
+        "position": "O'qituvchi",
+        "last_name": "Yusupov",
+        "first_name": "Azamjon",
+        "middle_name": "Abdulladzhonovich"
+      },
+      {
+        "full_name": "Xolmatov Shaxobidin Jumabaevich",
+        "position": "O'qituvchi",
+        "last_name": "Xolmatov",
+        "first_name": "Shaxobidin",
+        "middle_name": "Jumabaevich"
+      },
+      {
+        "full_name": "Umarova Musharraf Yunusaliyevna",
+        "position": "O'qituvchi",
+        "last_name": "Umarova",
+        "first_name": "Musharraf",
+        "middle_name": "Yunusaliyevna"
+      }
+    ]
+  },
+  {
+    "slug": "kommunal-va-mehnat-gigienasi-kafedrasi",
+    "dept_code": "TP-KOMMUNAL",
+    "people": [
+      {
+        "full_name": "Turdiyev Shavkat Mamirovich",
+        "position": "Assistent",
+        "last_name": "Turdiyev",
+        "first_name": "Shavkat",
+        "middle_name": "Mamirovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Ashurova Manzuraxon Djaloldinovna",
+        "position": "O'qituvchi",
+        "last_name": "Ashurova",
+        "first_name": "Manzuraxon",
+        "middle_name": "Djaloldinovna"
+      },
+      {
+        "full_name": "Azimova Mayram Kurbanovna",
+        "position": "O'qituvchi",
+        "last_name": "Azimova",
+        "first_name": "Mayram",
+        "middle_name": "Kurbanovna"
+      },
+      {
+        "full_name": "Soliyev Baxtiyor",
+        "position": "O'qituvchi",
+        "last_name": "Soliyev",
+        "first_name": "Baxtiyor",
+        "middle_name": null
+      },
+      {
+        "full_name": "Tuxtamatov Ravshan Xolmatovich",
+        "position": "O'qituvchi",
+        "last_name": "Tuxtamatov",
+        "first_name": "Ravshan",
+        "middle_name": "Xolmatovich"
+      },
+      {
+        "full_name": "Uralova Nargiza Omanovna",
+        "position": "O'qituvchi",
+        "last_name": "Uralova",
+        "first_name": "Nargiza",
+        "middle_name": "Omanovna"
+      }
+    ]
+  },
+  {
+    "slug": "lotin-tili-pedagogika-va-psixologiya",
+    "dept_code": "XF-LOTIN",
+    "people": [
+      {
+        "full_name": "Kadirova Munira Rasulovna",
+        "position": "Professor",
+        "last_name": "Kadirova",
+        "first_name": "Munira",
+        "middle_name": "Rasulovna"
+      },
+      {
+        "full_name": "Shamsutdinova Oftobxon Maqsudaliyevna",
+        "position": "Dotsent",
+        "last_name": "Shamsutdinova",
+        "first_name": "Oftobxon",
+        "middle_name": "Maqsudaliyevna"
+      },
+      {
+        "full_name": "Urinova Nodira Shavkatovna",
+        "position": "PhD, o'qituvchi",
+        "last_name": "Urinova",
+        "first_name": "Nodira",
+        "middle_name": "Shavkatovna"
+      },
+      {
+        "full_name": "M.R. Kadirova",
+        "position": "PhD, o'qituvchi",
+        "last_name": "M.R.",
+        "first_name": "Kadirova",
+        "middle_name": null
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "— Shamsutdinova Oftobxon Maqsudalievna",
+        "position": "O'qituvchi",
+        "last_name": "—",
+        "first_name": "Shamsutdinova",
+        "middle_name": "Oftobxon Maqsudalievna"
+      },
+      {
+        "full_name": "— Yuldasheva Karima Aliyevna",
+        "position": "O'qituvchi",
+        "last_name": "—",
+        "first_name": "Yuldasheva",
+        "middle_name": "Karima Aliyevna"
+      },
+      {
+        "full_name": "Yuldasheva Karima Aliyevna",
+        "position": "O'qituvchi",
+        "last_name": "Yuldasheva",
+        "first_name": "Karima",
+        "middle_name": "Aliyevna"
+      },
+      {
+        "full_name": "Tuychieva Odina Sobirovna",
+        "position": "O'qituvchi",
+        "last_name": "Tuychieva",
+        "first_name": "Odina",
+        "middle_name": "Sobirovna"
+      },
+      {
+        "full_name": "Saliyeva Nigora Sadikovna",
+        "position": "O'qituvchi",
+        "last_name": "Saliyeva",
+        "first_name": "Nigora",
+        "middle_name": "Sadikovna"
+      },
+      {
+        "full_name": "Nishonova Dilnavoz Jonibekovna",
+        "position": "O'qituvchi",
+        "last_name": "Nishonova",
+        "first_name": "Dilnavoz",
+        "middle_name": "Jonibekovna"
+      },
+      {
+        "full_name": "Shalankov Konstantin Konstantinovich",
+        "position": "O'qituvchi",
+        "last_name": "Shalankov",
+        "first_name": "Konstantin",
+        "middle_name": "Konstantinovich"
+      },
+      {
+        "full_name": "Tuychibayeva Maftuna Baxodirovna",
+        "position": "O'qituvchi",
+        "last_name": "Tuychibayeva",
+        "first_name": "Maftuna",
+        "middle_name": "Baxodirovna"
+      },
+      {
+        "full_name": "Kadirova M.R.",
+        "position": "O'qituvchi",
+        "last_name": "Kadirova",
+        "first_name": "M.",
+        "middle_name": "R."
+      },
+      {
+        "full_name": "Ergasheva Sh.P.",
+        "position": "O'qituvchi",
+        "last_name": "Ergasheva",
+        "first_name": "Sh.P.",
+        "middle_name": null
+      },
+      {
+        "full_name": "RIFIY ISHLARI",
+        "position": "O'qituvchi",
+        "last_name": "RIFIY",
+        "first_name": "ISHLARI",
+        "middle_name": null
+      },
+      {
+        "full_name": "HIQ DARSLARI",
+        "position": "O'qituvchi",
+        "last_name": "HIQ",
+        "first_name": "DARSLARI",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "mikrobiologiya-virusologiya-va-immunologiya-kafedrasi",
+    "dept_code": "TP-MIKRO",
+    "people": [
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Mamatqulova Max",
+        "position": "O'qituvchi",
+        "last_name": "Mamatqulova",
+        "first_name": "Max",
+        "middle_name": null
+      },
+      {
+        "full_name": "SOLIYEV BAXTIYOR",
+        "position": "O'qituvchi",
+        "last_name": "SOLIYEV",
+        "first_name": "BAXTIYOR",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "nevrologiya-va-psixiatriya-kafedrasi",
+    "dept_code": "PED-NEVRO",
+    "people": [
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Muradimova A.R",
+        "position": "O'qituvchi",
+        "last_name": "Muradimova",
+        "first_name": "A.",
+        "middle_name": "R."
+      },
+      {
+        "full_name": "Muradimova A.R.",
+        "position": "O'qituvchi",
+        "last_name": "Muradimova",
+        "first_name": "A.",
+        "middle_name": "R."
+      },
+      {
+        "full_name": "Zokirov M.M.",
+        "position": "O'qituvchi",
+        "last_name": "Zokirov",
+        "first_name": "M.",
+        "middle_name": "M."
+      },
+      {
+        "full_name": "G‘ulomqodirov M.M.",
+        "position": "O'qituvchi",
+        "last_name": "G‘ulomqodirov",
+        "first_name": "M.M.",
+        "middle_name": null
+      },
+      {
+        "full_name": "Umarova M.P.",
+        "position": "O'qituvchi",
+        "last_name": "Umarova",
+        "first_name": "M.",
+        "middle_name": "P."
+      },
+      {
+        "full_name": "Axmadjon A.I.",
+        "position": "O'qituvchi",
+        "last_name": "Axmadjon",
+        "first_name": "A.",
+        "middle_name": "I."
+      },
+      {
+        "full_name": "Marupov A.T.",
+        "position": "O'qituvchi",
+        "last_name": "Marupov",
+        "first_name": "A.",
+        "middle_name": "T."
+      },
+      {
+        "full_name": "Maxmutov R.X.",
+        "position": "O'qituvchi",
+        "last_name": "Maxmutov",
+        "first_name": "R.",
+        "middle_name": "X."
+      }
+    ]
+  },
+  {
+    "slug": "normal-anatomiya-kafedrasi",
+    "dept_code": "DI-ANATOM",
+    "people": [
+      {
+        "full_name": "Madaminov Sodik Madaminovich",
+        "position": "Kafedra mudiri",
+        "last_name": "Madaminov",
+        "first_name": "Sodik",
+        "middle_name": "Madaminovich"
+      },
+      {
+        "full_name": "Abdulxakimov Arsen Renatovich",
+        "position": "PhD, o'qituvchi",
+        "last_name": "Abdulxakimov",
+        "first_name": "Arsen",
+        "middle_name": "Renatovich"
+      },
+      {
+        "full_name": "Palvanova Matlyubaxon Satvaldievna",
+        "position": "Kafedra mudiri",
+        "last_name": "Palvanova",
+        "first_name": "Matlyubaxon",
+        "middle_name": "Satvaldievna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Tilyaxodjaeva Gulbaxor Batirovna",
+        "position": "O'qituvchi",
+        "last_name": "Tilyaxodjaeva",
+        "first_name": "Gulbaxor",
+        "middle_name": "Batirovna"
+      },
+      {
+        "full_name": "Djurabaev Avaz Azizovich",
+        "position": "O'qituvchi",
+        "last_name": "Djurabaev",
+        "first_name": "Avaz",
+        "middle_name": "Azizovich"
+      },
+      {
+        "full_name": "Isakova Nasiba Raxmatjonovna",
+        "position": "O'qituvchi",
+        "last_name": "Isakova",
+        "first_name": "Nasiba",
+        "middle_name": "Raxmatjonovna"
+      }
+    ]
+  },
+  {
+    "slug": "ovqatlanish-bolalar-va-osmirlar-gigienasi-kafedrasi",
+    "dept_code": "TP-OVQAT",
+    "people": [
+      {
+        "full_name": "Ashurova Mukadas Djaloldinovna",
+        "position": "Dotsent",
+        "last_name": "Ashurova",
+        "first_name": "Mukadas",
+        "middle_name": "Djaloldinovna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Xojimatov Xusnidin Odilovich",
+        "position": "O'qituvchi",
+        "last_name": "Xojimatov",
+        "first_name": "Xusnidin",
+        "middle_name": "Odilovich"
+      },
+      {
+        "full_name": "Saydullayeva Kamila Mirshodovna",
+        "position": "O'qituvchi",
+        "last_name": "Saydullayeva",
+        "first_name": "Kamila",
+        "middle_name": "Mirshodovna"
+      },
+      {
+        "full_name": "Maxamatov Umidjon Shoirjonovich",
+        "position": "O'qituvchi",
+        "last_name": "Maxamatov",
+        "first_name": "Umidjon",
+        "middle_name": "Shoirjonovich"
+      },
+      {
+        "full_name": "Yusupov Mansurjon Mamajonovich",
+        "position": "O'qituvchi",
+        "last_name": "Yusupov",
+        "first_name": "Mansurjon",
+        "middle_name": "Mamajonovich"
+      }
+    ]
+  },
+  {
+    "slug": "ozbek-va-xorijiy-tillar-kafedrasi",
+    "dept_code": "XF-TILLAR",
+    "people": [
+      {
+        "full_name": "Iminaxunova Iroda Xuseynovna",
+        "position": "Professor",
+        "last_name": "Iminaxunova",
+        "first_name": "Iroda",
+        "middle_name": "Xuseynovna"
+      },
+      {
+        "full_name": "Xamdamova Shaxnoza Yusupaliyevna",
+        "position": "PhD, o'qituvchi",
+        "last_name": "Xamdamova",
+        "first_name": "Shaxnoza",
+        "middle_name": "Yusupaliyevna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Anvarov Alijon Uktamovich",
+        "position": "O'qituvchi",
+        "last_name": "Anvarov",
+        "first_name": "Alijon",
+        "middle_name": "Uktamovich"
+      },
+      {
+        "full_name": "Fazilova Nodira Akramovna",
+        "position": "O'qituvchi",
+        "last_name": "Fazilova",
+        "first_name": "Nodira",
+        "middle_name": "Akramovna"
+      },
+      {
+        "full_name": "Xamdamova Shaxnoza Yusupalievna",
+        "position": "O'qituvchi",
+        "last_name": "Xamdamova",
+        "first_name": "Shaxnoza",
+        "middle_name": "Yusupalievna"
+      }
+    ]
+  },
+  {
+    "slug": "patologik-fiziologiya-va-patologik-anatomiya-kafedrasi",
+    "dept_code": "XF-PATFIZ",
+    "people": [
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Xamrakulov Tulkin Zokirovich",
+        "position": "O'qituvchi",
+        "last_name": "Xamrakulov",
+        "first_name": "Tulkin",
+        "middle_name": "Zokirovich"
+      },
+      {
+        "full_name": "Yusupova Gulnara Karimovna",
+        "position": "O'qituvchi",
+        "last_name": "Yusupova",
+        "first_name": "Gulnara",
+        "middle_name": "Karimovna"
+      },
+      {
+        "full_name": "Ethanol Metabolism",
+        "position": "O'qituvchi",
+        "last_name": "Ethanol",
+        "first_name": "Metabolism",
+        "middle_name": null
+      },
+      {
+        "full_name": "Cell Cycle",
+        "position": "O'qituvchi",
+        "last_name": "Cell",
+        "first_name": "Cycle",
+        "middle_name": null
+      },
+      {
+        "full_name": "Flow Cytometry",
+        "position": "O'qituvchi",
+        "last_name": "Flow",
+        "first_name": "Cytometry",
+        "middle_name": null
+      },
+      {
+        "full_name": "Polymerase Chain Reaction",
+        "position": "O'qituvchi",
+        "last_name": "Polymerase",
+        "first_name": "Chain",
+        "middle_name": "Reaction"
+      },
+      {
+        "full_name": "DNA Repair",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Repair",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Mutations",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Mutations",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Replication",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Replication",
+        "middle_name": null
+      },
+      {
+        "full_name": "Platelet Activation",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Activation",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hypercoagulable States",
+        "position": "O'qituvchi",
+        "last_name": "Hypercoagulable",
+        "first_name": "States",
+        "middle_name": null
+      },
+      {
+        "full_name": "Platelet Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hemolysis Basics",
+        "position": "O'qituvchi",
+        "last_name": "Hemolysis",
+        "first_name": "Basics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Extrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Extrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Intrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Intrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microcytic Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Microcytic",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Sicle Cell Anemia",
+        "position": "O'qituvchi",
+        "last_name": "Sicle",
+        "first_name": "Cell",
+        "middle_name": "Anemia"
+      },
+      {
+        "full_name": "Other Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Blood Groups",
+        "position": "O'qituvchi",
+        "last_name": "Blood",
+        "first_name": "Groups",
+        "middle_name": null
+      },
+      {
+        "full_name": "Acute Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Acute",
+        "first_name": "Leukemias",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "pediatriya-kafedrasi",
+    "dept_code": "PED-1",
+    "people": [
+      {
+        "full_name": "Shermatov Rasuljon Mamasiddiqovich",
+        "position": "Dotsent",
+        "last_name": "Shermatov",
+        "first_name": "Rasuljon",
+        "middle_name": "Mamasiddiqovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Axmedova Yelena Aleksandrovna",
+        "position": "O'qituvchi",
+        "last_name": "Axmedova",
+        "first_name": "Yelena",
+        "middle_name": "Aleksandrovna"
+      },
+      {
+        "full_name": "Alimova Iroda Anvarovna",
+        "position": "O'qituvchi",
+        "last_name": "Alimova",
+        "first_name": "Iroda",
+        "middle_name": "Anvarovna"
+      },
+      {
+        "full_name": "Babadjanova Xursanoy Melibayevna",
+        "position": "O'qituvchi",
+        "last_name": "Babadjanova",
+        "first_name": "Xursanoy",
+        "middle_name": "Melibayevna"
+      },
+      {
+        "full_name": "Gafurov Abduqayum Pattoyevich",
+        "position": "O'qituvchi",
+        "last_name": "Gafurov",
+        "first_name": "Abduqayum",
+        "middle_name": "Pattoyevich"
+      },
+      {
+        "full_name": "Tashmamatova Dilnozaxon",
+        "position": "O'qituvchi",
+        "last_name": "Tashmamatova",
+        "first_name": "Dilnozaxon",
+        "middle_name": null
+      },
+      {
+        "full_name": "Ismoilov Baxromiddin Zaxriddinovich",
+        "position": "O'qituvchi",
+        "last_name": "Ismoilov",
+        "first_name": "Baxromiddin",
+        "middle_name": "Zaxriddinovich"
+      },
+      {
+        "full_name": "HIQ DARSLARI",
+        "position": "O'qituvchi",
+        "last_name": "HIQ",
+        "first_name": "DARSLARI",
+        "middle_name": null
+      },
+      {
+        "full_name": "Platelet Activation",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Activation",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hypercoagulable States",
+        "position": "O'qituvchi",
+        "last_name": "Hypercoagulable",
+        "first_name": "States",
+        "middle_name": null
+      },
+      {
+        "full_name": "Platelet Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Anticoagulant Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Anticoagulant",
+        "first_name": "Drugs",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hemolysis Basics",
+        "position": "O'qituvchi",
+        "last_name": "Hemolysis",
+        "first_name": "Basics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Extrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Extrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Intrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Intrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microcytic Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Microcytic",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Sicle Cell Anemia",
+        "position": "O'qituvchi",
+        "last_name": "Sicle",
+        "first_name": "Cell",
+        "middle_name": "Anemia"
+      },
+      {
+        "full_name": "Other Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Blood Groups",
+        "position": "O'qituvchi",
+        "last_name": "Blood",
+        "first_name": "Groups",
+        "middle_name": null
+      },
+      {
+        "full_name": "Acute Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Acute",
+        "first_name": "Leukemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Chronic Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Chronic",
+        "first_name": "Leukemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hodgkin Lymphoma",
+        "position": "O'qituvchi",
+        "last_name": "Hodgkin",
+        "first_name": "Lymphoma",
+        "middle_name": null
+      },
+      {
+        "full_name": "Non Hodgkin Lymphoma",
+        "position": "O'qituvchi",
+        "last_name": "Non",
+        "first_name": "Hodgkin",
+        "middle_name": "Lymphoma"
+      },
+      {
+        "full_name": "Plasma Cell Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Plasma",
+        "first_name": "Cell",
+        "middle_name": "Disorders"
+      },
+      {
+        "full_name": "Myeloproliferative Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Myeloproliferative",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Alkylating Agents",
+        "position": "O'qituvchi",
+        "last_name": "Alkylating",
+        "first_name": "Agents",
+        "middle_name": null
+      },
+      {
+        "full_name": "Antitumor Antibiotics",
+        "position": "O'qituvchi",
+        "last_name": "Antitumor",
+        "first_name": "Antibiotics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microtuble Inhibitors",
+        "position": "O'qituvchi",
+        "last_name": "Microtuble",
+        "first_name": "Inhibitors",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Drugs",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Drugs",
+        "middle_name": null
+      },
+      {
+        "full_name": "Other Cancer Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Cancer",
+        "middle_name": "Drugs"
+      }
+    ]
+  },
+  {
+    "slug": "pediatriya-kafedrasi-2",
+    "dept_code": "PED-2",
+    "people": [
+      {
+        "full_name": "Axmadaliyev Shoxrux Shuxratovich",
+        "position": "Dotsent",
+        "last_name": "Axmadaliyev",
+        "first_name": "Shoxrux",
+        "middle_name": "Shuxratovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Mullajonov Xasanboy Ergashaliyevich",
+        "position": "O'qituvchi",
+        "last_name": "Mullajonov",
+        "first_name": "Xasanboy",
+        "middle_name": "Ergashaliyevich"
+      },
+      {
+        "full_name": "Platelet Activation",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Activation",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hypercoagulable States",
+        "position": "O'qituvchi",
+        "last_name": "Hypercoagulable",
+        "first_name": "States",
+        "middle_name": null
+      },
+      {
+        "full_name": "Platelet Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Anticoagulant Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Anticoagulant",
+        "first_name": "Drugs",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hemolysis Basics",
+        "position": "O'qituvchi",
+        "last_name": "Hemolysis",
+        "first_name": "Basics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Extrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Extrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Intrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Intrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microcytic Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Microcytic",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Sicle Cell Anemia",
+        "position": "O'qituvchi",
+        "last_name": "Sicle",
+        "first_name": "Cell",
+        "middle_name": "Anemia"
+      },
+      {
+        "full_name": "Other Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Blood Groups",
+        "position": "O'qituvchi",
+        "last_name": "Blood",
+        "first_name": "Groups",
+        "middle_name": null
+      },
+      {
+        "full_name": "Acute Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Acute",
+        "first_name": "Leukemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Chronic Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Chronic",
+        "first_name": "Leukemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hodgkin Lymphoma",
+        "position": "O'qituvchi",
+        "last_name": "Hodgkin",
+        "first_name": "Lymphoma",
+        "middle_name": null
+      },
+      {
+        "full_name": "Non Hodgkin Lymphoma",
+        "position": "O'qituvchi",
+        "last_name": "Non",
+        "first_name": "Hodgkin",
+        "middle_name": "Lymphoma"
+      },
+      {
+        "full_name": "Plasma Cell Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Plasma",
+        "first_name": "Cell",
+        "middle_name": "Disorders"
+      },
+      {
+        "full_name": "Myeloproliferative Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Myeloproliferative",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Alkylating Agents",
+        "position": "O'qituvchi",
+        "last_name": "Alkylating",
+        "first_name": "Agents",
+        "middle_name": null
+      },
+      {
+        "full_name": "Antitumor Antibiotics",
+        "position": "O'qituvchi",
+        "last_name": "Antitumor",
+        "first_name": "Antibiotics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microtuble Inhibitors",
+        "position": "O'qituvchi",
+        "last_name": "Microtuble",
+        "first_name": "Inhibitors",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Drugs",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Drugs",
+        "middle_name": null
+      },
+      {
+        "full_name": "Other Cancer Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Cancer",
+        "middle_name": "Drugs"
+      }
+    ]
+  },
+  {
+    "slug": "preventiv-tibbiyot-asoslari-jamoat-salomatligi-jismoniy-tarbiya-va-sport-kafedrasi",
+    "dept_code": "TP-PREVENT",
+    "people": [
+      {
+        "full_name": "Axmadaliyev Rustam Umaraliyevich",
+        "position": "Kafedra mudiri",
+        "last_name": "Axmadaliyev",
+        "first_name": "Rustam",
+        "middle_name": "Umaraliyevich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Mamatxanova Gulnora Maxmudovna",
+        "position": "O'qituvchi",
+        "last_name": "Mamatxanova",
+        "first_name": "Gulnora",
+        "middle_name": "Maxmudovna"
+      },
+      {
+        "full_name": "Maxmudova Xurmatoy Toshtemirovna",
+        "position": "O'qituvchi",
+        "last_name": "Maxmudova",
+        "first_name": "Xurmatoy",
+        "middle_name": "Toshtemirovna"
+      }
+    ]
+  },
+  {
+    "slug": "stomatologiya-va-otorinolaringologiya-kafedrasi",
+    "dept_code": "PED-STOM",
+    "people": [
+      {
+        "full_name": "Umarov Odiljon Maxmudovich",
+        "position": "Professor",
+        "last_name": "Umarov",
+        "first_name": "Odiljon",
+        "middle_name": "Maxmudovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Otorinolaringologiya. Stomatologiya.",
+        "position": "O'qituvchi",
+        "last_name": "Otorinolaringologiya.",
+        "first_name": "Stomatologiya.",
+        "middle_name": null
+      },
+      {
+        "full_name": "Djalolidinova Shaxlo Djamolidinovna",
+        "position": "O'qituvchi",
+        "last_name": "Djalolidinova",
+        "first_name": "Shaxlo",
+        "middle_name": "Djamolidinovna"
+      },
+      {
+        "full_name": "Xalilova Barchinoy Rasulovna",
+        "position": "O'qituvchi",
+        "last_name": "Xalilova",
+        "first_name": "Barchinoy",
+        "middle_name": "Rasulovna"
+      },
+      {
+        "full_name": "Sobirjonov Azamat Solijonovich",
+        "position": "O'qituvchi",
+        "last_name": "Sobirjonov",
+        "first_name": "Azamat",
+        "middle_name": "Solijonovich"
+      }
+    ]
+  },
+  {
+    "slug": "terapiya-yonalishidagi-fanlar-kafedrasi",
+    "dept_code": "DI-TERAPIYA",
+    "people": [
+      {
+        "full_name": "Shamsutdinova Guzel Baxodirovna",
+        "position": "Kafedra mudiri",
+        "last_name": "Shamsutdinova",
+        "first_name": "Guzel",
+        "middle_name": "Baxodirovna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Mamadjanov Rustam Ergashevich",
+        "position": "O'qituvchi",
+        "last_name": "Mamadjanov",
+        "first_name": "Rustam",
+        "middle_name": "Ergashevich"
+      }
+    ]
+  },
+  {
+    "slug": "tibbiy-va-biologik-kimyo-kafedrasi",
+    "dept_code": "XF-KIMYO",
+    "people": [
+      {
+        "full_name": "Izatulla Raxmatullayev",
+        "position": "Professor",
+        "last_name": "Izatulla",
+        "first_name": "Raxmatullayev",
+        "middle_name": null
+      },
+      {
+        "full_name": "Marupova Manzura Aminovna",
+        "position": "Dotsent",
+        "last_name": "Marupova",
+        "first_name": "Manzura",
+        "middle_name": "Aminovna"
+      },
+      {
+        "full_name": "M.A. Marupova",
+        "position": "Kafedra mudiri",
+        "last_name": "M.A.",
+        "first_name": "Marupova",
+        "middle_name": null
+      },
+      {
+        "full_name": "Nazarova Yorqinoy Xalpajonovna",
+        "position": "Assistent",
+        "last_name": "Nazarova",
+        "first_name": "Yorqinoy",
+        "middle_name": "Xalpajonovna"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Nigora Namanjanovna",
+        "position": "O'qituvchi",
+        "last_name": "Nigora",
+        "first_name": "Namanjanovna",
+        "middle_name": null
+      },
+      {
+        "full_name": "Abdurazakova Iqbolxon Abduraxmonovna",
+        "position": "O'qituvchi",
+        "last_name": "Abdurazakova",
+        "first_name": "Iqbolxon",
+        "middle_name": "Abduraxmonovna"
+      },
+      {
+        "full_name": "Sultanov Bexzad Sardorovich",
+        "position": "O'qituvchi",
+        "last_name": "Sultanov",
+        "first_name": "Bexzad",
+        "middle_name": "Sardorovich"
+      },
+      {
+        "full_name": "TCA Cycle",
+        "position": "O'qituvchi",
+        "last_name": "TCA",
+        "first_name": "Cycle",
+        "middle_name": null
+      },
+      {
+        "full_name": "HMP Shunt",
+        "position": "O'qituvchi",
+        "last_name": "HMP",
+        "first_name": "Shunt",
+        "middle_name": null
+      },
+      {
+        "full_name": "Amino Acids",
+        "position": "O'qituvchi",
+        "last_name": "Amino",
+        "first_name": "Acids",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Structure",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Structure",
+        "middle_name": null
+      },
+      {
+        "full_name": "Purine Metabolism",
+        "position": "O'qituvchi",
+        "last_name": "Purine",
+        "first_name": "Metabolism",
+        "middle_name": null
+      },
+      {
+        "full_name": "Pyruvate Dehydrogenase",
+        "position": "O'qituvchi",
+        "last_name": "Pyruvate",
+        "first_name": "Dehydrogenase",
+        "middle_name": null
+      },
+      {
+        "full_name": "Other Amino Acids",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Amino",
+        "middle_name": "Acids"
+      },
+      {
+        "full_name": "Pyrimidine Metabolism",
+        "position": "O'qituvchi",
+        "last_name": "Pyrimidine",
+        "first_name": "Metabolism",
+        "middle_name": null
+      },
+      {
+        "full_name": "Electron Transport Chain",
+        "position": "O'qituvchi",
+        "last_name": "Electron",
+        "first_name": "Transport",
+        "middle_name": "Chain"
+      },
+      {
+        "full_name": "Other Vitamins",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Vitamins",
+        "middle_name": null
+      },
+      {
+        "full_name": "Fatty Acids",
+        "position": "O'qituvchi",
+        "last_name": "Fatty",
+        "first_name": "Acids",
+        "middle_name": null
+      },
+      {
+        "full_name": "Lipid Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Lipid",
+        "first_name": "Drugs",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "travmatologiya-va-ortopediya-kafedrasi",
+    "dept_code": "DI-TRAVMA",
+    "people": [
+      {
+        "full_name": "Yusupova Rano Turdiyevna",
+        "position": "Dotsent",
+        "last_name": "Yusupova",
+        "first_name": "Rano",
+        "middle_name": "Turdiyevna"
+      },
+      {
+        "full_name": "Xaydarov Azizjon Qosimovich",
+        "position": "Dotsent",
+        "last_name": "Xaydarov",
+        "first_name": "Azizjon",
+        "middle_name": "Qosimovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Mahmudov Boburbek Erkinovich",
+        "position": "O'qituvchi",
+        "last_name": "Mahmudov",
+        "first_name": "Boburbek",
+        "middle_name": "Erkinovich"
+      },
+      {
+        "full_name": "Koraboyev Jasurbek Mavlonjonovich",
+        "position": "O'qituvchi",
+        "last_name": "Koraboyev",
+        "first_name": "Jasurbek",
+        "middle_name": "Mavlonjonovich"
+      },
+      {
+        "full_name": "Xaydarov A.Q.",
+        "position": "O'qituvchi",
+        "last_name": "Xaydarov",
+        "first_name": "A.",
+        "middle_name": "Q."
+      },
+      {
+        "full_name": "Eshbayev E.A.",
+        "position": "O'qituvchi",
+        "last_name": "Eshbayev",
+        "first_name": "E.",
+        "middle_name": "A."
+      },
+      {
+        "full_name": "G‘ulomov Q.Q.",
+        "position": "O'qituvchi",
+        "last_name": "G‘ulomov",
+        "first_name": "Q.Q.",
+        "middle_name": null
+      },
+      {
+        "full_name": "Toshmatov F.R.",
+        "position": "O'qituvchi",
+        "last_name": "Toshmatov",
+        "first_name": "F.",
+        "middle_name": "R."
+      },
+      {
+        "full_name": "Maxmudov B.E.",
+        "position": "O'qituvchi",
+        "last_name": "Maxmudov",
+        "first_name": "B.",
+        "middle_name": "E."
+      },
+      {
+        "full_name": "HIQ DARSLARI",
+        "position": "O'qituvchi",
+        "last_name": "HIQ",
+        "first_name": "DARSLARI",
+        "middle_name": null
+      }
+    ]
+  },
+  {
+    "slug": "umumiy-jarrohlik-kafedrasi",
+    "dept_code": "DI-UMUM-JAR",
+    "people": [
+      {
+        "full_name": "Saydaliyev Sultongaziy Satvaldievich",
+        "position": "Kafedra mudiri",
+        "last_name": "Saydaliyev",
+        "first_name": "Sultongaziy",
+        "middle_name": "Satvaldievich"
+      },
+      {
+        "full_name": "Mirzaev Baxtiyor Burxonovich",
+        "position": "Dotsent",
+        "last_name": "Mirzaev",
+        "first_name": "Baxtiyor",
+        "middle_name": "Burxonovich"
+      },
+      {
+        "full_name": "Xaydarov Nodirjon Sovridinovich",
+        "position": "Katta o'qituvchi",
+        "last_name": "Xaydarov",
+        "first_name": "Nodirjon",
+        "middle_name": "Sovridinovich"
+      },
+      {
+        "full_name": "Azimova Gulnoza Ravshanovna",
+        "position": "Katta o'qituvchi",
+        "last_name": "Azimova",
+        "first_name": "Gulnoza",
+        "middle_name": "Ravshanovna"
+      },
+      {
+        "full_name": "XALQARO HAMKORLIK",
+        "position": "Professor",
+        "last_name": "XALQARO",
+        "first_name": "HAMKORLIK",
+        "middle_name": null
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Sharapov Ilhamberdi Kamalovich",
+        "position": "O'qituvchi",
+        "last_name": "Sharapov",
+        "first_name": "Ilhamberdi",
+        "middle_name": "Kamalovich"
+      },
+      {
+        "full_name": "Karimov Nurullo Xabibullo",
+        "position": "O'qituvchi",
+        "last_name": "Karimov",
+        "first_name": "Nurullo",
+        "middle_name": "Xabibullo"
+      }
+    ]
+  },
+  {
+    "slug": "urologiya-va-onkologiya-kafedrasi",
+    "dept_code": "PED-URO",
+    "people": [
+      {
+        "full_name": "Yuldashov Fayzulla Yuldashovich",
+        "position": "Professor",
+        "last_name": "Yuldashov",
+        "first_name": "Fayzulla",
+        "middle_name": "Yuldashovich"
+      },
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "F.Y. Yuldashev",
+        "position": "O'qituvchi",
+        "last_name": "F.Y.",
+        "first_name": "Yuldashev",
+        "middle_name": null
+      },
+      {
+        "full_name": "Avazxanov Jaloliddin Payzilidinovich",
+        "position": "O'qituvchi",
+        "last_name": "Avazxanov",
+        "first_name": "Jaloliddin",
+        "middle_name": "Payzilidinovich"
+      },
+      {
+        "full_name": "Valiyev Husan Toxirovich",
+        "position": "O'qituvchi",
+        "last_name": "Valiyev",
+        "first_name": "Husan",
+        "middle_name": "Toxirovich"
+      }
+    ]
+  },
+  {
+    "slug": "xalq-tabobati-va-farmakologiya-kafedrasi",
+    "dept_code": "TP-FARMA",
+    "people": [
+      {
+        "full_name": "Vivariy Laboratoriyasi",
+        "position": "O'qituvchi",
+        "last_name": "Vivariy",
+        "first_name": "Laboratoriyasi",
+        "middle_name": null
+      },
+      {
+        "full_name": "Platelet Activation",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Activation",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hypercoagulable States",
+        "position": "O'qituvchi",
+        "last_name": "Hypercoagulable",
+        "first_name": "States",
+        "middle_name": null
+      },
+      {
+        "full_name": "Platelet Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Platelet",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Anticoagulant Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Anticoagulant",
+        "first_name": "Drugs",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hemolysis Basics",
+        "position": "O'qituvchi",
+        "last_name": "Hemolysis",
+        "first_name": "Basics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Extrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Extrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Intrinsic Hemolysis",
+        "position": "O'qituvchi",
+        "last_name": "Intrinsic",
+        "first_name": "Hemolysis",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microcytic Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Microcytic",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Sicle Cell Anemia",
+        "position": "O'qituvchi",
+        "last_name": "Sicle",
+        "first_name": "Cell",
+        "middle_name": "Anemia"
+      },
+      {
+        "full_name": "Other Anemias",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Anemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Blood Groups",
+        "position": "O'qituvchi",
+        "last_name": "Blood",
+        "first_name": "Groups",
+        "middle_name": null
+      },
+      {
+        "full_name": "Acute Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Acute",
+        "first_name": "Leukemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Chronic Leukemias",
+        "position": "O'qituvchi",
+        "last_name": "Chronic",
+        "first_name": "Leukemias",
+        "middle_name": null
+      },
+      {
+        "full_name": "Hodgkin Lymphoma",
+        "position": "O'qituvchi",
+        "last_name": "Hodgkin",
+        "first_name": "Lymphoma",
+        "middle_name": null
+      },
+      {
+        "full_name": "Non Hodgkin Lymphoma",
+        "position": "O'qituvchi",
+        "last_name": "Non",
+        "first_name": "Hodgkin",
+        "middle_name": "Lymphoma"
+      },
+      {
+        "full_name": "Plasma Cell Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Plasma",
+        "first_name": "Cell",
+        "middle_name": "Disorders"
+      },
+      {
+        "full_name": "Myeloproliferative Disorders",
+        "position": "O'qituvchi",
+        "last_name": "Myeloproliferative",
+        "first_name": "Disorders",
+        "middle_name": null
+      },
+      {
+        "full_name": "Alkylating Agents",
+        "position": "O'qituvchi",
+        "last_name": "Alkylating",
+        "first_name": "Agents",
+        "middle_name": null
+      },
+      {
+        "full_name": "Antitumor Antibiotics",
+        "position": "O'qituvchi",
+        "last_name": "Antitumor",
+        "first_name": "Antibiotics",
+        "middle_name": null
+      },
+      {
+        "full_name": "Microtuble Inhibitors",
+        "position": "O'qituvchi",
+        "last_name": "Microtuble",
+        "first_name": "Inhibitors",
+        "middle_name": null
+      },
+      {
+        "full_name": "DNA Drugs",
+        "position": "O'qituvchi",
+        "last_name": "DNA",
+        "first_name": "Drugs",
+        "middle_name": null
+      },
+      {
+        "full_name": "Other Cancer Drugs",
+        "position": "O'qituvchi",
+        "last_name": "Other",
+        "first_name": "Cancer",
+        "middle_name": "Drugs"
+      }
+    ]
+  }
+]

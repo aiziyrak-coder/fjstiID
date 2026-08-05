@@ -1,0 +1,3 @@
+last_name,first_name,middle_name,gender,birth_date,pinfl,passport_series,passport_number,region,district,address_full,phone,email,roles,student_id,course,study_form,funding,specialization,employee_id,position,password
+Aliyev,Vali,Karimovich,male,2003-05-12,31205030123456,AA,1234567,Farg'ona,Farg'ona shahar,"Farg'ona, Navbahor 12",+998901112233,vali@fjsti.uz,student,STU-2024-001,1,kunduzgi,grant,Davolash ishi,,,ChangeMe123!
+Karimova,Dilnoza,Akmalovna,female,1995-08-20,49508200123456,AB,7654321,Farg'ona,Qo'qon,"Qo'qon, Mustaqillik 5",+998909998877,dilnoza@fjsti.uz,"student,staff",STU-2022-088,3,kunduzgi,kontrakt,Jamoat salomatligi,EMP-1001,Laborant,ChangeMe123!

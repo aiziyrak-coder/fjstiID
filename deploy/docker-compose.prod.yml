@@ -1,0 +1,45 @@
+# Production stack for id.fermi.uz — binds ONLY to 127.0.0.1 (nginx reverse-proxy)
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: fjstiid-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: fjsti
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-FjstiDb_Prod_2026!}
+      POSTGRES_DB: fjsti_id
+    ports:
+      - "127.0.0.1:55440:5432"
+    volumes:
+      - fjstiid_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fjsti -d fjsti_id"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  api:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile.prod
+    container_name: fjstiid-api
+    restart: unless-stopped
+    env_file:
+      - ../backend/.env.production
+    environment:
+      DATABASE_URL: postgresql+asyncpg://fjsti:${POSTGRES_PASSWORD:-FjstiDb_Prod_2026!}@db:5432/fjsti_id
+      DATABASE_URL_SYNC: postgresql+psycopg://fjsti:${POSTGRES_PASSWORD:-FjstiDb_Prod_2026!}@db:5432/fjsti_id
+      FACE_PROVIDER: mock
+    ports:
+      - "127.0.0.1:8120:8000"
+    volumes:
+      - fjstiid_uploads:/app/uploads
+      - fjstiid_face_models:/root/.insightface
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  fjstiid_pgdata:
+  fjstiid_uploads:
+  fjstiid_face_models:
